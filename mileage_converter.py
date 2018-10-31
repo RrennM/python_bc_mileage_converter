@@ -5,4 +5,6 @@ mile = float(kms) * 0.621371
 # mile = str(mile)
 
 # print("Okay, you said " + kms + " kilometers. That's about " + mile + " miles!")
-print(f"Okay, you said {kms} kilometers. That's about {mile} miles!")
+
+round_mile = round(mile, 2)
+print(f"Okay, you said {kms} kilometers. That's about {round_mile} miles!")
